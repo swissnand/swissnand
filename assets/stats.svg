@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="230" viewBox="0 0 580 230">
 <defs>
-<linearGradient id="bgs" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b17"/><stop offset="1" stop-color="#0d1430"/></linearGradient>
-<radialGradient id="g1s"><stop offset="0" stop-color="#22d3ee" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
-<radialGradient id="g2s"><stop offset="0" stop-color="#a78bfa" stop-opacity=".45"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+<linearGradient id="bgs" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
+<radialGradient id="g1s"><stop offset="0" stop-color="#5aaaf0" stop-opacity=".55"/><stop offset="1" stop-color="#5aaaf0" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2s"><stop offset="0" stop-color="#2f86d0" stop-opacity=".45"/><stop offset="1" stop-color="#2f86d0" stop-opacity="0"/></radialGradient>
 <linearGradient id="edges" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity=".3"/></linearGradient>
 <filter id="bs" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="24"/></filter>
 <clipPath id="cs"><rect width="580" height="230" rx="22"/></clipPath>
@@ -16,14 +16,14 @@ text{font-family:'Segoe UI',-apple-system,'SF Pro Display',Helvetica,Arial,sans-
 </style></defs>
 <g clip-path="url(#cs)">
 <rect width="580" height="230" fill="url(#bgs)"/>
-<g filter="url(#bs)"><circle class="drift" cx="470" cy="40" r="120" fill="url(#g1s)"/><circle cx="80" cy="230" r="100" fill="url(#g2s)"/></g>
+<g filter="url(#bs)"><circle class="drift" cx="470" cy="40" r="130" fill="url(#g1s)"/><circle cx="80" cy="230" r="100" fill="url(#g2s)"/></g>
 <rect x="1" y="1" width="578" height="228" rx="21" fill="#fff" fill-opacity=".05" stroke="url(#edges)" stroke-width="1.5"/>
-<text x="28" y="44" font-size="19" font-weight="700" fill="#f8fafc">GitHub in Zahlen</text>
-<text x="552" y="44" font-size="12" fill="#94a3b8" text-anchor="end">Stand 19.11.2026</text>
-<g class="rise" style="animation-delay:0.00s"><rect x="28" y="66" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="28" y="84" width="3" height="34" rx="1.5" fill="#22d3ee"/><text x="44" y="100" font-size="23" font-weight="700" fill="#f8fafc">5</text><text x="44" y="121" font-size="12" fill="#94a3b8">Beiträge (12 Mt.)</text></g>
-<g class="rise" style="animation-delay:0.12s"><rect x="207" y="66" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="207" y="84" width="3" height="34" rx="1.5" fill="#a78bfa"/><text x="223" y="100" font-size="23" font-weight="700" fill="#f8fafc">3</text><text x="223" y="121" font-size="12" fill="#94a3b8">Commits (12 Mt.)</text></g>
-<g class="rise" style="animation-delay:0.24s"><rect x="386" y="66" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="386" y="84" width="3" height="34" rx="1.5" fill="#fb923c"/><text x="402" y="100" font-size="23" font-weight="700" fill="#f8fafc">1 T</text><text x="402" y="121" font-size="12" fill="#94a3b8">Streak aktuell</text></g>
-<g class="rise" style="animation-delay:0.36s"><rect x="28" y="148" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="28" y="166" width="3" height="34" rx="1.5" fill="#fb923c"/><text x="44" y="182" font-size="23" font-weight="700" fill="#f8fafc">1 T</text><text x="44" y="203" font-size="12" fill="#94a3b8">Längster Streak</text></g>
-<g class="rise" style="animation-delay:0.48s"><rect x="207" y="148" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="207" y="166" width="3" height="34" rx="1.5" fill="#22d3ee"/><text x="223" y="182" font-size="23" font-weight="700" fill="#f8fafc">1</text><text x="223" y="203" font-size="12" fill="#94a3b8">Repos</text></g>
-<g class="rise" style="animation-delay:0.60s"><rect x="386" y="148" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="386" y="166" width="3" height="34" rx="1.5" fill="#a78bfa"/><text x="402" y="182" font-size="23" font-weight="700" fill="#f8fafc">0 · 1</text><text x="402" y="203" font-size="12" fill="#94a3b8">Sterne · PRs</text></g>
+<text x="28" y="44" font-size="19" font-weight="700" fill="#f2f7fb">GitHub in Zahlen</text>
+<text x="552" y="44" font-size="12" fill="#8fa3b8" text-anchor="end">Stand 19.11.2026</text>
+<g class="rise" style="animation-delay:0.00s"><rect x="28" y="66" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="28" y="84" width="3" height="34" rx="1.5" fill="#5aaaf0"/><text x="44" y="100" font-size="23" font-weight="700" fill="#f2f7fb">12</text><text x="44" y="121" font-size="12" fill="#8fa3b8">Beiträge (12 Mt.)</text></g>
+<g class="rise" style="animation-delay:0.12s"><rect x="207" y="66" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="207" y="84" width="3" height="34" rx="1.5" fill="#2f86d0"/><text x="223" y="100" font-size="23" font-weight="700" fill="#f2f7fb">9</text><text x="223" y="121" font-size="12" fill="#8fa3b8">Commits (12 Mt.)</text></g>
+<g class="rise" style="animation-delay:0.24s"><rect x="386" y="66" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="386" y="84" width="3" height="34" rx="1.5" fill="#9ccbf5"/><text x="402" y="100" font-size="23" font-weight="700" fill="#f2f7fb">1 T</text><text x="402" y="121" font-size="12" fill="#8fa3b8">Streak aktuell</text></g>
+<g class="rise" style="animation-delay:0.36s"><rect x="28" y="148" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="28" y="166" width="3" height="34" rx="1.5" fill="#9ccbf5"/><text x="44" y="182" font-size="23" font-weight="700" fill="#f2f7fb">1 T</text><text x="44" y="203" font-size="12" fill="#8fa3b8">Längster Streak</text></g>
+<g class="rise" style="animation-delay:0.48s"><rect x="207" y="148" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="207" y="166" width="3" height="34" rx="1.5" fill="#5aaaf0"/><text x="223" y="182" font-size="23" font-weight="700" fill="#f2f7fb">2</text><text x="223" y="203" font-size="12" fill="#8fa3b8">Repos</text></g>
+<g class="rise" style="animation-delay:0.60s"><rect x="386" y="148" width="166" height="70" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".1"/><rect x="386" y="166" width="3" height="34" rx="1.5" fill="#2f86d0"/><text x="402" y="182" font-size="23" font-weight="700" fill="#f2f7fb">0 · 1</text><text x="402" y="203" font-size="12" fill="#8fa3b8">Sterne · PRs</text></g>
 </g></svg>
