@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Erzeugt die dynamischen Teile des GitHub-Profils im Glas-Design.
+"""Erzeugt die dynamischen Teile des GitHub-Profils im SWISSNAND-Design (Akzent #004984).
 
 - assets/stats.svg       GitHub-Zahlen (Beiträge, Commits, Streak, Repos, Sterne, PRs)
 - assets/languages.svg   meistgenutzte Sprachen
@@ -44,8 +44,10 @@ UA = {"User-Agent": f"{USER}-profile-bot"}
 
 FONT = "'Segoe UI',-apple-system,'SF Pro Display',Helvetica,Arial,sans-serif"
 MONO = "'SF Mono',Menlo,Consolas,monospace"
-CYAN, VIOLET, ORANGE, GREEN = "#22d3ee", "#a78bfa", "#fb923c", "#34d399"
-TEXT, MUTED = "#f8fafc", "#94a3b8"
+# SWISSNAND-Palette (Namen aus der alten Version beibehalten)
+CYAN, VIOLET, ORANGE, GREEN = "#5aaaf0", "#2f86d0", "#9ccbf5", "#3ccf96"
+BRAND = "#004984"
+TEXT, MUTED = "#f2f7fb", "#8fa3b8"
 
 
 def esc(s) -> str:
@@ -53,7 +55,7 @@ def esc(s) -> str:
 
 
 def readable(color: str) -> str:
-    """Zu dunkle Sprachfarben aufhellen, damit sie auf dem dunklen Glas sichtbar sind."""
+    """Zu dunkle Sprachfarben aufhellen, damit sie auf dem dunklen Hintergrund sichtbar sind."""
     try:
         r, g, b = (int(color.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4))
     except ValueError:
@@ -165,7 +167,7 @@ def streaks(days: list[dict]) -> tuple[int, int]:
 
 def defs(w: int, h: int, a1: str, a2: str, rid: str = "") -> str:
     return f"""<defs>
-<linearGradient id="bg{rid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b17"/><stop offset="1" stop-color="#0d1430"/></linearGradient>
+<linearGradient id="bg{rid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
 <radialGradient id="g1{rid}"><stop offset="0" stop-color="{a1}" stop-opacity=".55"/><stop offset="1" stop-color="{a1}" stop-opacity="0"/></radialGradient>
 <radialGradient id="g2{rid}"><stop offset="0" stop-color="{a2}" stop-opacity=".45"/><stop offset="1" stop-color="{a2}" stop-opacity="0"/></radialGradient>
 <linearGradient id="edge{rid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity=".3"/></linearGradient>
@@ -186,7 +188,7 @@ def frame(w: int, h: int, a1: str, a2: str, body: str, rid: str = "") -> str:
 {defs(w, h, a1, a2, rid)}
 <g clip-path="url(#c{rid})">
 <rect width="{w}" height="{h}" fill="url(#bg{rid})"/>
-<g filter="url(#b{rid})"><circle class="drift" cx="{w - 110}" cy="40" r="120" fill="url(#g1{rid})"/><circle cx="80" cy="{h}" r="100" fill="url(#g2{rid})"/></g>
+<g filter="url(#b{rid})"><circle class="drift" cx="{w - 110}" cy="40" r="130" fill="url(#g1{rid})"/><circle cx="80" cy="{h}" r="100" fill="url(#g2{rid})"/></g>
 <rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="21" fill="#fff" fill-opacity=".05" stroke="url(#edge{rid})" stroke-width="1.5"/>
 {body}
 </g></svg>"""
@@ -366,7 +368,7 @@ def wrap(text: str, max_chars: int, max_lines: int) -> list[str]:
     return lines
 
 
-PALETTES = [(ORANGE, "#f43f5e"), (ORANGE, "#facc15"), ("#f97316", VIOLET), ("#fb923c", CYAN)]
+PALETTES = [("#0a5fa3", BRAND), (BRAND, "#1a6aa8"), ("#0d66ad", "#003561"), ("#1a6aa8", BRAND)]
 
 
 def course_svg(c: dict, i: int) -> str:
@@ -379,7 +381,7 @@ def course_svg(c: dict, i: int) -> str:
             continue
         cw = int(len(label) * 7.1 + 24)
         chips.append(f'<rect x="{x}" y="22" width="{cw}" height="26" rx="13" fill="{col}" fill-opacity="{.18 if col == ORANGE else .08}" stroke="{col}" stroke-opacity=".45"/>'
-                     f'<text x="{x + cw / 2}" y="39.5" font-size="12" font-weight="600" fill="{"#fed7aa" if col == ORANGE else "#e2e8f0"}" text-anchor="middle">{esc(label)}</text>')
+                     f'<text x="{x + cw / 2}" y="39.5" font-size="12" font-weight="600" fill="{"#cfe6fb" if col == ORANGE else "#e2e8f0"}" text-anchor="middle">{esc(label)}</text>')
         x += cw + 8
     tl = wrap(c["title"], 30, 2)
     title = "".join(f'<text x="24" y="{86 + j * 27}" font-size="21" font-weight="700" fill="{TEXT}">{esc(t)}</text>' for j, t in enumerate(tl))
@@ -408,8 +410,8 @@ def readme_block(chosen: list[dict]) -> str:
     imgs = "\n".join(f'  <a href="{esc(c["url"])}"><img src="./assets/course-{i + 1}.svg" width="{width}" alt="{esc(c["title"])}"/></a>'
                      for i, c in enumerate(chosen))
     return (f'<div align="center">\n{imgs}\n</div>\n\n<div align="center">\n\n'
-            f'[![Alle Kurse](https://img.shields.io/badge/Alle_Kurse_ansehen-%E2%86%92-fb923c?style=for-the-badge&labelColor=0b1224)]({KF_URL}/kurse)\n'
-            f'[![Pro-Abo](https://img.shields.io/badge/Pro--Abo-alle_Kurse_inklusive-a78bfa?style=for-the-badge&labelColor=0b1224)]({KF_URL}/pro)\n\n'
+            f'[![Alle Kurse](https://img.shields.io/badge/Alle_Kurse_ansehen-%E2%86%92-004984?style=for-the-badge&labelColor=0b1520)]({KF_URL}/kurse)\n'
+            f'[![Pro-Abo](https://img.shields.io/badge/Pro--Abo-alle_Kurse_inklusive-1a6aa8?style=for-the-badge&labelColor=0b1520)]({KF_URL}/pro)\n\n'
             f'<sub>Jeden Tag eine neue Auswahl · Stand {stamp()}</sub>\n\n</div>')
 
 

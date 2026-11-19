@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="200" viewBox="0 0 580 200">
+<defs>
+<linearGradient id="bgt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
+<radialGradient id="gt" cx=".9" cy="0" r=".8"><stop offset="0" stop-color="#0a5fa3" stop-opacity=".55"/><stop offset="1" stop-color="#004984" stop-opacity="0"/></radialGradient>
+<linearGradient id="ict" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d66ad"/><stop offset="1" stop-color="#003561"/></linearGradient>
+<clipPath id="ct"><rect width="580" height="200" rx="20"/></clipPath>
+<style>text{font-family:-apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif} .p{animation:p 2s ease-in-out infinite} @keyframes p{50%{opacity:.35}} @media (prefers-reduced-motion:reduce){.p{animation:none}}</style>
+</defs>
+<g clip-path="url(#ct)">
+<rect width="580" height="200" fill="url(#bgt)"/><rect width="580" height="200" fill="url(#gt)"/>
+<rect x="28" y="24" width="40" height="40" rx="11" fill="url(#ict)"/>
+<g transform="translate(36 32)" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="2" width="22" height="20" rx="3" transform="scale(.92)"/><path d="m6 9 3.5 3L6 15M12 15h5"/></g>
+<text x="82" y="52" font-size="23" font-weight="800" fill="#fff" letter-spacing="-.3">SWISSNAND IT Toolbox</text>
+<circle class="p" cx="490.8" cy="44" r="4.5" fill="#3ccf96"/><text x="548" y="49" font-size="13" fill="#9fb3c6" text-anchor="end">v1.0.0</text>
+<text x="28" y="98" font-size="15" fill="#b6c5d4">70 IT-Werkzeuge in einer Mac-App: Subnetze, Hashes,</text><text x="28" y="120" font-size="15" fill="#b6c5d4">JSON, Cron, DNS, RAID, Passwörter … Open Source.</text><rect x="28" y="148" width="66" height="28" rx="14" fill="#5aaaf0" fill-opacity=".1" stroke="#5aaaf0" stroke-opacity=".35"/><text x="61.0" y="166.5" font-size="13" font-weight="600" fill="#9ccbf5" text-anchor="middle">macOS</text><rect x="102" y="148" width="88" height="28" rx="14" fill="#5aaaf0" fill-opacity=".1" stroke="#5aaaf0" stroke-opacity=".35"/><text x="146.0" y="166.5" font-size="13" font-weight="600" fill="#9ccbf5" text-anchor="middle">Electron</text><rect x="198" y="148" width="104" height="28" rx="14" fill="#5aaaf0" fill-opacity=".1" stroke="#5aaaf0" stroke-opacity=".35"/><text x="250.0" y="166.5" font-size="13" font-weight="600" fill="#9ccbf5" text-anchor="middle">JavaScript</text><rect x="310" y="148" width="50" height="28" rx="14" fill="#5aaaf0" fill-opacity=".1" stroke="#5aaaf0" stroke-opacity=".35"/><text x="335.0" y="166.5" font-size="13" font-weight="600" fill="#9ccbf5" text-anchor="middle">MIT</text>
+<rect x=".5" y=".5" width="579" height="199" rx="19.5" fill="none" stroke="#5aaaf0" stroke-opacity=".2"/>
+</g></svg>

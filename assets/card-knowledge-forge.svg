@@ -1,27 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="200" viewBox="0 0 580 200">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b17"/><stop offset="1" stop-color="#0d1430"/></linearGradient>
-<radialGradient id="g1"><stop offset="0" stop-color="#f97316" stop-opacity=".6"/><stop offset="1" stop-color="#f97316" stop-opacity="0"/></radialGradient>
-<radialGradient id="g2"><stop offset="0" stop-color="#fb923c" stop-opacity=".5"/><stop offset="1" stop-color="#fb923c" stop-opacity="0"/></radialGradient>
-<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity=".3"/></linearGradient>
-<filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
-<clipPath id="c"><rect width="580" height="200" rx="22"/></clipPath>
-<style>
-text{font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif}
-.a{animation:m 12s ease-in-out infinite alternate}
-@keyframes m{to{transform:translate(-90px,40px)}}
-.p{animation:p 2s ease-in-out infinite}
-@keyframes p{50%{opacity:.3}}
-</style></defs>
-<g clip-path="url(#c)">
-<rect width="580" height="200" fill="url(#bg)"/>
-<g filter="url(#b)"><circle class="a" cx="470" cy="40" r="110" fill="url(#g1)"/><circle cx="90" cy="200" r="90" fill="url(#g2)"/></g>
-<rect x="1" y="1" width="578" height="198" rx="21" fill="#fff" fill-opacity=".05" stroke="url(#edge)" stroke-width="1.5"/>
-<text x="32" y="58" font-size="30">📚</text>
-<text x="76" y="56" font-size="26" font-weight="700" fill="#f8fafc">Knowledge Forge</text>
-<circle class="p" cx="518" cy="45" r="4" fill="#34d399"/>
-<text x="548" y="50" font-size="13" fill="#34d399" text-anchor="end">live</text>
-<text x="32" y="96" font-size="15.5" fill="#cbd5e1">Fachbuchmarke und Online-Kursplattform für IT,</text>
-<text x="32" y="120" font-size="15.5" fill="#cbd5e1">Cybersecurity, KI und Finanzen. Live mit Pro-Abo.</text>
-<rect x="32" y="150" width="83" height="28" rx="14" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="45" y="169" font-size="13" fill="#e2e8f0">Next.js</text><rect x="123.39999999999999" y="150" width="75" height="28" rx="14" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="136.39999999999998" y="169" font-size="13" fill="#e2e8f0">Stripe</text><rect x="206.59999999999997" y="150" width="75" height="28" rx="14" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="219.59999999999997" y="169" font-size="13" fill="#e2e8f0">Vercel</text><rect x="289.79999999999995" y="150" width="92" height="28" rx="14" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".15"/><text x="302.79999999999995" y="169" font-size="13" fill="#e2e8f0">Postgres</text>
+<linearGradient id="bgk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
+<radialGradient id="gk" cx=".9" cy="0" r=".8"><stop offset="0" stop-color="#0a5fa3" stop-opacity=".55"/><stop offset="1" stop-color="#004984" stop-opacity="0"/></radialGradient>
+<linearGradient id="ick" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d66ad"/><stop offset="1" stop-color="#003561"/></linearGradient>
+<clipPath id="ck"><rect width="580" height="200" rx="20"/></clipPath>
+<style>text{font-family:-apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif} .p{animation:p 2s ease-in-out infinite} @keyframes p{50%{opacity:.35}} @media (prefers-reduced-motion:reduce){.p{animation:none}}</style>
+</defs>
+<g clip-path="url(#ck)">
+<rect width="580" height="200" fill="url(#bgk)"/><rect width="580" height="200" fill="url(#gk)"/>
+<rect x="28" y="24" width="40" height="40" rx="11" fill="url(#ick)"/>
+<g transform="translate(36 32)" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4.5A2 2 0 0 1 5 2.5h14v17H5.5A2.5 2.5 0 0 0 3 22z"/><path d="M3 19.5V4.5M8 7h7M8 11h5"/></g>
+<text x="82" y="52" font-size="23" font-weight="800" fill="#fff" letter-spacing="-.3">Knowledge Forge</text>
+<circle class="p" cx="505.20000000000005" cy="44" r="4.5" fill="#3ccf96"/><text x="548" y="49" font-size="13" fill="#9fb3c6" text-anchor="end">live</text>
+<text x="28" y="98" font-size="15" fill="#b6c5d4">Online-Kurse und Fachwissen für IT, Cloud,</text><text x="28" y="120" font-size="15" fill="#b6c5d4">Cybersecurity und mehr – mit Zertifikaten und Pro-Abo.</text><rect x="28" y="148" width="81" height="28" rx="14" fill="#5aaaf0" fill-opacity=".1" stroke="#5aaaf0" stroke-opacity=".35"/><text x="68.5" y="166.5" font-size="13" font-weight="600" fill="#9ccbf5" text-anchor="middle">Next.js</text><rect x="117" y="148" width="73" height="28" rx="14" fill="#5aaaf0" fill-opacity=".1" stroke="#5aaaf0" stroke-opacity=".35"/><text x="153.5" y="166.5" font-size="13" font-weight="600" fill="#9ccbf5" text-anchor="middle">Stripe</text><rect x="198" y="148" width="73" height="28" rx="14" fill="#5aaaf0" fill-opacity=".1" stroke="#5aaaf0" stroke-opacity=".35"/><text x="234.5" y="166.5" font-size="13" font-weight="600" fill="#9ccbf5" text-anchor="middle">Vercel</text><rect x="279" y="148" width="88" height="28" rx="14" fill="#5aaaf0" fill-opacity=".1" stroke="#5aaaf0" stroke-opacity=".35"/><text x="323.0" y="166.5" font-size="13" font-weight="600" fill="#9ccbf5" text-anchor="middle">Postgres</text>
+<rect x=".5" y=".5" width="579" height="199" rx="19.5" fill="none" stroke="#5aaaf0" stroke-opacity=".2"/>
 </g></svg>

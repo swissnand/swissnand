@@ -1,17 +1,18 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="Hoi, ich bin Andrin" width="100%"/>
+<a href="https://swissnand.com"><img src="./assets/header.svg" alt="SWISSNAND – Werkzeuge und Wissen für die IT" width="100%"/></a>
 
-<a href="https://github.com/swissnand">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=67E8F9&center=true&vCenter=true&width=640&lines=Ich+automatisiere+alles%2C+was+zweimal+passiert.;Baue+KI-+und+Machine-Learning-Tools.;Gr%C3%BCnder+von+Knowledge+Forge+%F0%9F%93%9A;Aktuell%3A+ein+AI+Forex+Trading-Bot+%F0%9F%93%88" alt="Typing SVG"/>
+<a href="https://swissnand.com">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=5AAAF0&center=true&vCenter=true&width=640&lines=Was+zweimal+passiert%2C+wird+automatisiert.;70+IT-Tools+in+einer+Mac-App+%E2%80%93+Open+Source.;Online-Kurse+bei+Knowledge+Forge+%F0%9F%93%9A;Swiss+made+%F0%9F%87%A8%F0%9F%87%AD" alt="Typing SVG"/>
 </a>
 
 <br/>
 
-<img src="https://img.shields.io/badge/Standort-Schweiz-ef4444?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9IjAiLz48cGF0aCBkPSJNMTMgNmg2djdoN3Y2aC03djdoLTZ2LTdINnYtNmg3eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==&labelColor=0b1224"/>
-<img src="https://img.shields.io/badge/Informatiker-EFZ-22d3ee?style=for-the-badge&labelColor=0b1224"/>
-<img src="https://img.shields.io/badge/Fokus-KI%20%26%20Automation-8b5cf6?style=for-the-badge&labelColor=0b1224"/>
-<img src="https://komarev.com/ghpvc/?username=swissnand&style=for-the-badge&color=f97316&label=Profilaufrufe"/>
+<a href="https://swissnand.com"><img src="https://img.shields.io/badge/swissnand.com-Website-004984?style=for-the-badge&labelColor=0b1520"/></a>
+<img src="https://img.shields.io/badge/Standort-Schweiz-d52b1e?style=for-the-badge&labelColor=0b1520"/>
+<img src="https://img.shields.io/badge/Informatiker-EFZ-1a6aa8?style=for-the-badge&labelColor=0b1520"/>
+<img src="https://img.shields.io/badge/Fokus-Automation%20%26%20KI-2f86d0?style=for-the-badge&labelColor=0b1520"/>
+<img src="https://komarev.com/ghpvc/?username=swissnand&style=for-the-badge&color=004984&label=Profilaufrufe"/>
 
 </div>
 
@@ -20,19 +21,28 @@
 ### 🧭 Über mich
 
 ```yaml
-name:       Andrin
+name:       NAND
+marke:      SWISSNAND
+website:    https://swissnand.com
 ort:        Schweiz 🇨🇭
 beruf:      Informatiker EFZ · Automation & Systeme
-business:   Knowledge Forge – Fachbücher & Online-Kurse
-interessen: [KI, Machine Learning, Trading, Kraft- & Ausdauersport, Finanzen]
+projekte:   [SWISSNAND IT Toolbox, Knowledge Forge]
+interessen: [KI, Machine Learning, Automation, Cloud, Finanzen]
 motto:      "Was zweimal passiert, wird automatisiert."
 ```
 
 ### 🚀 Projekte
 
 <div align="center">
+  <a href="https://github.com/swissnand/it-toolbox"><img src="./assets/card-it-toolbox.svg" width="49%" alt="SWISSNAND IT Toolbox"/></a>
   <a href="https://knowledge-forge.swissnand.com"><img src="./assets/card-knowledge-forge.svg" width="49%" alt="Knowledge Forge"/></a>
-  <a href="#"><img src="./assets/card-trading-bot.svg" width="49%" alt="AI Forex Bot"/></a>
+</div>
+
+<div align="center">
+
+[![IT Toolbox herunterladen](https://img.shields.io/badge/IT_Toolbox-DMG_herunterladen-004984?style=for-the-badge&logo=apple&logoColor=white&labelColor=0b1520)](https://github.com/swissnand/it-toolbox/releases/latest)
+[![Knowledge Forge](https://img.shields.io/badge/Knowledge_Forge-Plattform_öffnen-1a6aa8?style=for-the-badge&labelColor=0b1520)](https://knowledge-forge.swissnand.com)
+
 </div>
 
 ### 🛠️ Stack
@@ -40,10 +50,10 @@ motto:      "Was zweimal passiert, wird automatisiert."
 <div align="center">
 
 **Sprachen & Frameworks**<br/>
-<img src="https://skillicons.dev/icons?i=python,ts,js,nextjs,react,tailwind,nodejs&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,ts,js,nextjs,react,electron,nodejs&theme=dark" />
 
 **Infrastruktur & Automation**<br/>
-<img src="https://skillicons.dev/icons?i=ansible,terraform,docker,linux,powershell,git,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=ansible,terraform,docker,kubernetes,linux,powershell,git&theme=dark" />
 
 **Cloud & Daten**<br/>
 <img src="https://skillicons.dev/icons?i=vercel,supabase,postgres,sklearn,pytorch&theme=dark" />
@@ -68,8 +78,8 @@ motto:      "Was zweimal passiert, wird automatisiert."
 
 <div align="center">
 
-[![Alle Kurse](https://img.shields.io/badge/Alle_Kurse_ansehen-%E2%86%92-fb923c?style=for-the-badge&labelColor=0b1224)](https://knowledge-forge.swissnand.com/kurse)
-[![Pro-Abo](https://img.shields.io/badge/Pro--Abo-alle_Kurse_inklusive-a78bfa?style=for-the-badge&labelColor=0b1224)](https://knowledge-forge.swissnand.com/pro)
+[![Alle Kurse](https://img.shields.io/badge/Alle_Kurse_ansehen-%E2%86%92-004984?style=for-the-badge&labelColor=0b1520)](https://knowledge-forge.swissnand.com/kurse)
+[![Pro-Abo](https://img.shields.io/badge/Pro--Abo-alle_Kurse_inklusive-1a6aa8?style=for-the-badge&labelColor=0b1520)](https://knowledge-forge.swissnand.com/pro)
 
 <sub>Jeden Tag eine neue Auswahl · Stand 19.11.2026</sub>
 
@@ -78,11 +88,11 @@ motto:      "Was zweimal passiert, wird automatisiert."
 
 ### 🔭 Gerade dran
 
-- 📈 **AI Forex Bot** – Machine-Learning-Strategien für Devisen, getestet in MetaTrader 5
+- 🧰 **SWISSNAND IT Toolbox** – neue Tools und Verbesserungen für die Mac-App
 - 📚 **Knowledge Forge** – die ersten 40 Kurse (Ansible, Kubernetes, Networking, IT-Basics …)
-- 🤖 Automation mit Ansible, Terraform und PowerShell
+- 🌐 **swissnand.com** – alle Projekte an einem Ort
 
 <div align="center">
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:8b5cf6,100:f97316&height=110&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001c35,50:004984,100:5aaaf0&height=110&section=footer&text=SWISSNAND&fontColor=ffffff&fontSize=26&fontAlignY=72"/>
 </div>
