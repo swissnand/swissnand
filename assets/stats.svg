@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="230" viewBox="0 0 580 230">
+<defs>
+<linearGradient id="bgs" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b17"/><stop offset="1" stop-color="#0d1430"/></linearGradient>
+<radialGradient id="g1s"><stop offset="0" stop-color="#22d3ee" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2s"><stop offset="0" stop-color="#a78bfa" stop-opacity=".45"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+<linearGradient id="edges" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity=".3"/></linearGradient>
+<filter id="bs" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="24"/></filter>
+<clipPath id="cs"><rect width="580" height="230" rx="22"/></clipPath>
+<style>
+text{font-family:'Segoe UI',-apple-system,'SF Pro Display',Helvetica,Arial,sans-serif} .mono{font-family:'SF Mono',Menlo,Consolas,monospace}
+.drift{animation:drift 14s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(-80px,30px)}}
+@media (prefers-reduced-motion:reduce){.rise,.drift{animation:none}}
+.rise{animation:rise .8s ease-out backwards}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+</style></defs>
+<g clip-path="url(#cs)">
+<rect width="580" height="230" fill="url(#bgs)"/>
+<g filter="url(#bs)"><circle class="drift" cx="470" cy="40" r="120" fill="url(#g1s)"/><circle cx="80" cy="230" r="100" fill="url(#g2s)"/></g>
+<rect x="1" y="1" width="578" height="228" rx="21" fill="#fff" fill-opacity=".05" stroke="url(#edges)" stroke-width="1.5"/>
+<text x="28" y="44" font-size="19" font-weight="700" fill="#f8fafc">GitHub in Zahlen</text><text x="290.0" y="129.0" font-size="14" fill="#94a3b8" text-anchor="middle">Wird beim ersten Lauf der GitHub Action erzeugt …</text>
+</g></svg>

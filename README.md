@@ -31,7 +31,7 @@ motto:      "Was zweimal passiert, wird automatisiert."
 ### 🚀 Projekte
 
 <div align="center">
-  <a href="#"><img src="./assets/card-knowledge-forge.svg" width="49%" alt="Knowledge Forge"/></a>
+  <a href="https://knowledge-forge.swissnand.com"><img src="./assets/card-knowledge-forge.svg" width="49%" alt="Knowledge Forge"/></a>
   <a href="#"><img src="./assets/card-trading-bot.svg" width="49%" alt="AI Forex Bot"/></a>
 </div>
 
@@ -53,11 +53,28 @@ motto:      "Was zweimal passiert, wird automatisiert."
 ### 📊 GitHub-Statistik
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=swissnand&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0b1224&title_color=67e8f9&icon_color=8b5cf6&text_color=cbd5e1&locale=de" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=swissnand&layout=compact&hide_border=true&bg_color=0b1224&title_color=67e8f9&text_color=cbd5e1&locale=de" />
-  <br/>
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=swissnand&bg_color=0b1224&color=67e8f9&line=8b5cf6&point=f97316&area=true&area_color=22d3ee&hide_border=true&custom_title=Aktivit%C3%A4t" />
+  <img src="./assets/stats.svg" width="49%" alt="GitHub in Zahlen"/>
+  <img src="./assets/languages.svg" width="49%" alt="Meistgenutzte Sprachen"/>
+  <img src="./assets/activity.svg" width="98%" alt="Aktivität"/>
 </div>
+
+### 📚 Neu bei Knowledge Forge
+
+<!-- KF:START -->
+<div align="center">
+  <a href="https://knowledge-forge.swissnand.com/kurse/kubernetes-masterclass"><img src="./assets/course-1.svg" width="49%" alt="Kubernetes Masterclass: Vom Einsteiger zum Profi"/></a>
+  <a href="https://knowledge-forge.swissnand.com/kurse/it-basics"><img src="./assets/course-2.svg" width="49%" alt="IT-Basics: Computer, Internet und Sicherheit verstehen"/></a>
+</div>
+
+<div align="center">
+
+[![Alle Kurse](https://img.shields.io/badge/Alle_Kurse_ansehen-%E2%86%92-fb923c?style=for-the-badge&labelColor=0b1224)](https://knowledge-forge.swissnand.com/kurse)
+[![Pro-Abo](https://img.shields.io/badge/Pro--Abo-alle_Kurse_inklusive-a78bfa?style=for-the-badge&labelColor=0b1224)](https://knowledge-forge.swissnand.com/pro)
+
+<sub>Jeden Tag eine neue Auswahl · Stand 19.11.2026</sub>
+
+</div>
+<!-- KF:END -->
 
 ### 🔭 Gerade dran
 
