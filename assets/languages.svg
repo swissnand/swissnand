@@ -18,5 +18,11 @@ text{font-family:'Segoe UI',-apple-system,'SF Pro Display',Helvetica,Arial,sans-
 <rect width="580" height="230" fill="url(#bgl)"/>
 <g filter="url(#bl)"><circle class="drift" cx="470" cy="40" r="120" fill="url(#g1l)"/><circle cx="80" cy="230" r="100" fill="url(#g2l)"/></g>
 <rect x="1" y="1" width="578" height="228" rx="21" fill="#fff" fill-opacity=".05" stroke="url(#edgel)" stroke-width="1.5"/>
-<text x="28" y="44" font-size="19" font-weight="700" fill="#f8fafc">Meistgenutzte Sprachen</text><text x="290.0" y="129.0" font-size="14" fill="#94a3b8" text-anchor="middle">Wird beim ersten Lauf der GitHub Action erzeugt …</text>
+<text x="28" y="44" font-size="19" font-weight="700" fill="#f8fafc">Meistgenutzte Sprachen</text>
+<text x="552" y="44" font-size="12" fill="#94a3b8" text-anchor="end">1 Sprachen</text>
+<clipPath id="bar"><rect x="28" y="66" width="524" height="12" rx="6"/></clipPath><g clip-path="url(#bar)">
+<rect x="28" y="66" width="524" height="12" fill="#fff" fill-opacity=".08"/>
+<rect x="28.0" y="66" width="524.0" height="12" fill="#3572A5"/>
+</g>
+<g class="rise" style="animation-delay:0.00s"><circle cx="34" cy="107" r="6" fill="#3572A5"/><text x="50" y="112" font-size="15" fill="#f8fafc">Python</text><text x="273" y="112" font-size="14" fill="#94a3b8" text-anchor="end" class="mono">100.0 %</text></g>
 </g></svg>
