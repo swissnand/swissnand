@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="1" stop-color="#0b1224"/>
+    </linearGradient>
+    <radialGradient id="b1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".75"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b2"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".7"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b3"><stop offset="0" stop-color="#f97316" stop-opacity=".55"/><stop offset="1" stop-color="#f97316" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".35"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e0f7ff"/>
+      <stop offset=".5" stop-color="#a5f3fc"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <clipPath id="round"><rect width="1200" height="340" rx="24"/></clipPath>
+    <style>
+      .blob1{animation:d1 14s ease-in-out infinite alternate}
+      .blob2{animation:d2 18s ease-in-out infinite alternate}
+      .blob3{animation:d3 16s ease-in-out infinite alternate}
+      @keyframes d1{to{transform:translate(160px,60px) scale(1.15)}}
+      @keyframes d2{to{transform:translate(-200px,-40px) scale(.9)}}
+      @keyframes d3{to{transform:translate(-120px,70px) scale(1.2)}}
+      .chart{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 6s ease-out infinite}
+      @keyframes draw{0%{stroke-dashoffset:1400}55%,100%{stroke-dashoffset:0}}
+      .cursor{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .pulse{animation:pulse 2s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+      @keyframes pulse{50%{opacity:.35;transform:scale(1.6)}}
+      text{font-family:'Segoe UI',-apple-system,'SF Pro Display',Helvetica,Arial,sans-serif}
+      .mono{font-family:'SF Mono',Menlo,Consolas,monospace}
+    </style>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <g filter="url(#blur)">
+      <circle class="blob1" cx="230" cy="90" r="190" fill="url(#b1)"/>
+      <circle class="blob2" cx="980" cy="250" r="230" fill="url(#b2)"/>
+      <circle class="blob3" cx="760" cy="40" r="150" fill="url(#b3)"/>
+    </g>
+
+    <!-- Chart im Hintergrund -->
+    <polyline class="chart" fill="none" stroke="#22d3ee" stroke-opacity=".35" stroke-width="2"
+      points="0,290 60,282 120,288 180,266 240,272 300,248 360,256 420,230 480,240 540,214 600,222 660,196 720,206 780,180 840,190 900,160 960,172 1020,146 1080,154 1140,128 1200,120"/>
+
+    <!-- Glas-Karte -->
+    <rect x="60" y="50" width="1080" height="240" rx="28" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5"/>
+    <rect x="61" y="51" width="1078" height="60" rx="27" fill="#ffffff" fill-opacity=".03"/>
+
+    <!-- Fenster-Punkte -->
+    <circle cx="100" cy="82" r="6" fill="#ff5f57"/>
+    <circle cx="122" cy="82" r="6" fill="#febc2e"/>
+    <circle cx="144" cy="82" r="6" fill="#28c840"/>
+    <text x="176" y="87" class="mono" font-size="14" fill="#94a3b8">~/swissnand — zsh</text>
+
+    <!-- Status -->
+    <circle class="pulse" cx="1040" cy="82" r="5" fill="#34d399"/>
+    <text x="1054" y="87" font-size="14" fill="#a7f3d0">online</text>
+
+    <text x="100" y="170" font-size="58" font-weight="700" fill="url(#title)" letter-spacing="-1">Hoi, ich bin Andrin</text>
+    <text x="100" y="212" font-size="22" fill="#cbd5e1">Informatiker EFZ · Automation · KI · Gründer von Knowledge Forge</text>
+
+    <text x="100" y="258" class="mono" font-size="17" fill="#67e8f9">$<tspan fill="#e2e8f0">&#160;building --ai --automation --trading</tspan><tspan class="cursor" fill="#67e8f9">▋</tspan></text>
+
+    <rect x="100" y="272" width="420" height="2" fill="url(#line)"/>
+
+    <!-- Schweizer Kreuz -->
+    <g transform="translate(1040,190)">
+      <rect x="-34" y="-34" width="68" height="68" rx="16" fill="#ef4444" fill-opacity=".9"/>
+      <rect x="-7" y="-22" width="14" height="44" fill="#fff"/>
+      <rect x="-22" y="-7" width="44" height="14" fill="#fff"/>
+    </g>
+  </g>
+</svg>
