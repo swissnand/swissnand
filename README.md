@@ -102,9 +102,9 @@ SWISSNAND wird neu aufgestellt: eine Dachmarke, vier Marken, ein Kreislauf.
 
 - 🌐 **swissnand.com** – neue Website mit allen Marken
 - 📚 **Knowledge Forge** – die ersten 40 Kurse (Networking, Ansible, Linux, Git, Cyber …)
-- 🧰 **SWISSNAND Tools** – IT Toolbox v1.0 für macOS
+- 🧰 **SWISSNAND Tools** – IT Toolbox v1.0, Toolbox Web und Schweizer QR-Rechnung
 - 🤝 **Spheracom** – Community, Talks und der «Sphera Brief»
-- 🛰️ **Infosphera** – Lagebild aus offenen Quellen: Information, Cyber, Space
+- 🛡️ **Infosphera** – Security Tools: Mail Security Check, Web Security Check, Notfallkarte
 
 <div align="center">
 <br/>
