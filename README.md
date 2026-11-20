@@ -81,7 +81,7 @@ motto:      "Was zweimal passiert, wird automatisiert."
 [![Alle Kurse](https://img.shields.io/badge/Alle_Kurse_ansehen-%E2%86%92-004984?style=for-the-badge&labelColor=0b1520)](https://knowledge-forge.swissnand.com/kurse)
 [![Pro-Abo](https://img.shields.io/badge/Pro--Abo-alle_Kurse_inklusive-1a6aa8?style=for-the-badge&labelColor=0b1520)](https://knowledge-forge.swissnand.com/pro)
 
-<sub>Jeden Tag eine neue Auswahl · Stand 19.11.2026</sub>
+<sub>Jeden Tag eine neue Auswahl · Stand 20.11.2026</sub>
 
 </div>
 <!-- KF:END -->
