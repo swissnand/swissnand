@@ -44,14 +44,16 @@ motto:      "Was zweimal passiert, wird automatisiert."
 <div align="center">
   <a href="https://knowledge-forge.swissnand.com"><img src="./assets/card-knowledge-forge.svg" width="49%" alt="Knowledge Forge"/></a>
   <a href="https://github.com/swissnand/it-toolbox"><img src="./assets/card-it-toolbox.svg" width="49%" alt="SWISSNAND IT Toolbox"/></a>
-  <a href="https://swissnand.com"><img src="./assets/card-infosphera.svg" width="49%" alt="Infosphera"/></a>
-  <a href="https://swissnand.com"><img src="./assets/card-spheracom.svg" width="49%" alt="Spheracom"/></a>
+  <a href="https://github.com/swissnand/security-toolbox"><img src="./assets/card-security-toolbox.svg" width="49%" alt="Infosphera Security Toolbox"/></a>
+  <a href="https://infosphera.swissnand.com"><img src="./assets/card-infosphera.svg" width="49%" alt="Infosphera"/></a>
+  <a href="https://spheracom.swissnand.com"><img src="./assets/card-spheracom.svg" width="49%" alt="Spheracom"/></a>
 </div>
 
 <div align="center">
 
 [![Knowledge Forge](https://img.shields.io/badge/Knowledge_Forge-Plattform_öffnen-1a6aa8?style=for-the-badge&labelColor=0b1520)](https://knowledge-forge.swissnand.com)
 [![IT Toolbox herunterladen](https://img.shields.io/badge/IT_Toolbox-DMG_herunterladen-004984?style=for-the-badge&logo=apple&logoColor=white&labelColor=0b1520)](https://github.com/swissnand/it-toolbox/releases/latest)
+[![Security Toolbox herunterladen](https://img.shields.io/badge/Security_Toolbox-DMG_herunterladen-8A0730?style=for-the-badge&logo=apple&logoColor=white&labelColor=0b1520)](https://github.com/swissnand/security-toolbox/releases/latest)
 
 </div>
 
@@ -102,7 +104,7 @@ SWISSNAND wird neu aufgestellt: eine Dachmarke, vier Marken, ein Kreislauf.
 - 📚 **Knowledge Forge** – die ersten 40 Kurse (Networking, Ansible, Linux, Git, Cyber …)
 - 🧰 **SWISSNAND Tools** – IT Toolbox v1.0, Toolbox Web und Schweizer QR-Rechnung
 - 🤝 **Spheracom** – Community, Talks und der «Sphera Brief»
-- 🛡️ **Infosphera** – Security Tools: Mail Security Check, Web Security Check, Notfallkarte
+- 🛡️ **Infosphera** – ✅ [Security Toolbox v1.0](https://github.com/swissnand/security-toolbox) mit 31 Tools ist draussen · als Nächstes: Web-Checks auf infosphera.swissnand.com
 
 <div align="center">
 <br/>

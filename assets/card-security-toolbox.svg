@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="200" viewBox="0 0 580 200">
+<defs>
+<linearGradient id="bgs" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
+<radialGradient id="gs" cx=".9" cy="0" r=".8"><stop offset="0" stop-color="#8A0730" stop-opacity=".5"/><stop offset="1" stop-color="#8A0730" stop-opacity="0"/></radialGradient>
+<linearGradient id="shs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B30D41"/><stop offset="1" stop-color="#6E0526"/></linearGradient>
+<clipPath id="cs"><rect width="580" height="200" rx="20"/></clipPath>
+<style>text{font-family:-apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif} .p{animation:p 2s ease-in-out infinite} @keyframes p{50%{opacity:.35}} @media (prefers-reduced-motion:reduce){.p{animation:none}}</style>
+</defs>
+<g clip-path="url(#cs)">
+<rect width="580" height="200" fill="url(#bgs)"/><rect width="580" height="200" fill="url(#gs)"/>
+<g fill="none" stroke="#fff" stroke-opacity=".06"><circle cx="520" cy="190" r="90"/><ellipse cx="520" cy="190" rx="40" ry="90"/><ellipse cx="520" cy="190" rx="90" ry="24"/></g>
+<g transform="translate(28 24) scale(.625)"><rect width="64" height="64" rx="15" fill="#0B1220" stroke="#8A0730" stroke-opacity=".6"/><path d="M32 7 51 13.6v15c0 12.2-8.1 21.2-19 26.7C21.1 49.8 13 40.8 13 28.6v-15z" fill="url(#shs)"/><g fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"><circle cx="32" cy="30" r="11"/><ellipse cx="32" cy="30" rx="4.8" ry="11"/><path d="M21 30h22M23 24h18M23 36h18"/></g></g>
+<text x="82" y="40" font-size="11" font-weight="700" fill="#BF778D" letter-spacing="2">INFOSPHERA</text>
+<text x="82" y="62" font-size="23" font-weight="800" fill="#fff" letter-spacing="-.3">Security Toolbox</text>
+<circle class="p" cx="418" cy="44" r="4.5" fill="#3ccf96"/><text x="548" y="49" font-size="13" fill="#9fb3c6" text-anchor="end">v1.0 · Open Source</text>
+<text x="28" y="102" font-size="15" fill="#b6c5d4">31 Security-Werkzeuge in einer Mac-App: Mail, DNS, TLS,</text><text x="28" y="124" font-size="15" fill="#b6c5d4">Phishing, Logs, Notfallkarte, Meldepflicht. Nur defensiv.</text>
+<rect x="28" y="148" width="62" height="28" rx="14" fill="#8A0730" fill-opacity=".12" stroke="#8A0730" stroke-opacity=".4"/><text x="59.0" y="166.5" font-size="13" font-weight="600" fill="#E8CDD6" text-anchor="middle">macOS</text><rect x="98" y="148" width="85" height="28" rx="14" fill="#8A0730" fill-opacity=".12" stroke="#8A0730" stroke-opacity=".4"/><text x="140.5" y="166.5" font-size="13" font-weight="600" fill="#E8CDD6" text-anchor="middle">31 Tools</text><rect x="191" y="148" width="85" height="28" rx="14" fill="#8A0730" fill-opacity=".12" stroke="#8A0730" stroke-opacity=".4"/><text x="233.5" y="166.5" font-size="13" font-weight="600" fill="#E8CDD6" text-anchor="middle">Defensiv</text><rect x="284" y="148" width="85" height="28" rx="14" fill="#8A0730" fill-opacity=".12" stroke="#8A0730" stroke-opacity=".4"/><text x="326.5" y="166.5" font-size="13" font-weight="600" fill="#E8CDD6" text-anchor="middle">Electron</text><rect x="377" y="148" width="47" height="28" rx="14" fill="#8A0730" fill-opacity=".12" stroke="#8A0730" stroke-opacity=".4"/><text x="400.5" y="166.5" font-size="13" font-weight="600" fill="#E8CDD6" text-anchor="middle">MIT</text>
+<rect x=".5" y=".5" width="579" height="199" rx="19.5" fill="none" stroke="#8A0730" stroke-opacity=".35"/>
+</g></svg>
