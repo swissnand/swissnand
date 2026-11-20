@@ -3,13 +3,14 @@
 <a href="https://swissnand.com"><img src="./assets/header.svg" alt="SWISSNAND – Werkzeuge und Wissen für die IT" width="100%"/></a>
 
 <a href="https://swissnand.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=5AAAF0&center=true&vCenter=true&width=640&lines=Was+zweimal+passiert%2C+wird+automatisiert.;70+IT-Tools+in+einer+Mac-App+%E2%80%93+Open+Source.;Online-Kurse+bei+Knowledge+Forge+%F0%9F%93%9A;Swiss+made+%F0%9F%87%A8%F0%9F%87%AD" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=5AAAF0&center=true&vCenter=true&width=640&lines=Shaping+the+digital+frontier%2C+from+Switzerland.;Infosphera+%C2%B7+Knowledge+Forge+%C2%B7+Tools+%C2%B7+Spheracom;Was+zweimal+passiert%2C+wird+automatisiert.;Swiss+made+%F0%9F%87%A8%F0%9F%87%AD" alt="Typing SVG"/>
 </a>
 
 <br/>
 
 <a href="https://swissnand.com"><img src="https://img.shields.io/badge/swissnand.com-Website-004984?style=for-the-badge&labelColor=0b1520"/></a>
 <img src="https://img.shields.io/badge/Standort-Schweiz-d52b1e?style=for-the-badge&labelColor=0b1520"/>
+<img src="https://img.shields.io/badge/Gr%C3%BCnder-SWISSNAND-004984?style=for-the-badge&labelColor=0b1520"/>
 <img src="https://img.shields.io/badge/Informatiker-EFZ-1a6aa8?style=for-the-badge&labelColor=0b1520"/>
 <img src="https://img.shields.io/badge/Fokus-Automation%20%26%20KI-2f86d0?style=for-the-badge&labelColor=0b1520"/>
 <img src="https://komarev.com/ghpvc/?username=swissnand&style=for-the-badge&color=004984&label=Profilaufrufe"/>
@@ -25,23 +26,32 @@ name:       NAND
 marke:      SWISSNAND
 website:    https://swissnand.com
 ort:        Schweiz 🇨🇭
+rolle:      Gründer SWISSNAND
 beruf:      Informatiker EFZ · Automation & Systeme
-projekte:   [SWISSNAND IT Toolbox, Knowledge Forge]
+marken:     [Infosphera, Knowledge Forge, SWISSNAND Tools, Spheracom]
 interessen: [KI, Machine Learning, Automation, Cloud, Finanzen]
 motto:      "Was zweimal passiert, wird automatisiert."
 ```
 
-### 🚀 Projekte
+### 🏢 SWISSNAND
 
 <div align="center">
-  <a href="https://github.com/swissnand/it-toolbox"><img src="./assets/card-it-toolbox.svg" width="49%" alt="SWISSNAND IT Toolbox"/></a>
+  <a href="https://swissnand.com"><img src="./assets/ecosystem.svg" width="98%" alt="SWISSNAND – Infosphera, Knowledge Forge, SWISSNAND Tools, Spheracom"/></a>
+</div>
+
+### 🚀 Marken und Projekte
+
+<div align="center">
   <a href="https://knowledge-forge.swissnand.com"><img src="./assets/card-knowledge-forge.svg" width="49%" alt="Knowledge Forge"/></a>
+  <a href="https://github.com/swissnand/it-toolbox"><img src="./assets/card-it-toolbox.svg" width="49%" alt="SWISSNAND IT Toolbox"/></a>
+  <a href="https://swissnand.com"><img src="./assets/card-infosphera.svg" width="49%" alt="Infosphera"/></a>
+  <a href="https://swissnand.com"><img src="./assets/card-spheracom.svg" width="49%" alt="Spheracom"/></a>
 </div>
 
 <div align="center">
 
-[![IT Toolbox herunterladen](https://img.shields.io/badge/IT_Toolbox-DMG_herunterladen-004984?style=for-the-badge&logo=apple&logoColor=white&labelColor=0b1520)](https://github.com/swissnand/it-toolbox/releases/latest)
 [![Knowledge Forge](https://img.shields.io/badge/Knowledge_Forge-Plattform_öffnen-1a6aa8?style=for-the-badge&labelColor=0b1520)](https://knowledge-forge.swissnand.com)
+[![IT Toolbox herunterladen](https://img.shields.io/badge/IT_Toolbox-DMG_herunterladen-004984?style=for-the-badge&logo=apple&logoColor=white&labelColor=0b1520)](https://github.com/swissnand/it-toolbox/releases/latest)
 
 </div>
 
@@ -86,11 +96,15 @@ motto:      "Was zweimal passiert, wird automatisiert."
 </div>
 <!-- KF:END -->
 
-### 🔭 Gerade dran
+### 🔭 Gerade dran · SN2027
 
-- 🧰 **SWISSNAND IT Toolbox** – neue Tools und Verbesserungen für die Mac-App
-- 📚 **Knowledge Forge** – die ersten 40 Kurse (Ansible, Kubernetes, Networking, IT-Basics …)
-- 🌐 **swissnand.com** – alle Projekte an einem Ort
+SWISSNAND wird neu aufgestellt: eine Dachmarke, vier Marken, ein Kreislauf.
+
+- 🌐 **swissnand.com** – neue Website mit allen Marken
+- 📚 **Knowledge Forge** – die ersten 40 Kurse (Networking, Ansible, Linux, Git, Cyber …)
+- 🧰 **SWISSNAND Tools** – IT Toolbox v1.0 für macOS
+- 🤝 **Spheracom** – Community, Talks und der «Sphera Brief»
+- 🛰️ **Infosphera** – Lagebild aus offenen Quellen: Information, Cyber, Space
 
 <div align="center">
 <br/>

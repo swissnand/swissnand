@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="200" viewBox="0 0 580 200">
+<defs>
+<linearGradient id="bgi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
+<radialGradient id="gi" cx=".9" cy="0" r=".8"><stop offset="0" stop-color="#C9821F" stop-opacity=".45"/><stop offset="1" stop-color="#C9821F" stop-opacity="0"/></radialGradient>
+<clipPath id="ci"><rect width="580" height="200" rx="20"/></clipPath>
+<style>text{font-family:-apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif} .p{animation:p 2s ease-in-out infinite} @keyframes p{50%{opacity:.35}} @media (prefers-reduced-motion:reduce){.p{animation:none}}</style>
+</defs>
+<g clip-path="url(#ci)">
+<rect width="580" height="200" fill="url(#bgi)"/><rect width="580" height="200" fill="url(#gi)"/>
+<rect x="28" y="24" width="40" height="40" rx="11" fill="#C9821F"/>
+<g transform="translate(36 32)" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="5"/><path d="M12 12 19 5"/></g>
+<text x="82" y="52" font-size="23" font-weight="800" fill="#fff" letter-spacing="-.3">Infosphera</text>
+<circle class="p" cx="471.2" cy="44" r="4.5" fill="#F2A93B"/><text x="548" y="49" font-size="13" fill="#9fb3c6" text-anchor="end">in Aufbau</text>
+<text x="28" y="98" font-size="15" fill="#b6c5d4">Lagebild über vier Domänen: Information, Cyber,</text><text x="28" y="120" font-size="15" fill="#b6c5d4">Space und Command. Built in Switzerland.</text><rect x="28" y="148" width="109" height="28" rx="14" fill="#C9821F" fill-opacity=".12" stroke="#C9821F" stroke-opacity=".4"/><text x="82.5" y="166.5" font-size="13" font-weight="600" fill="#F7CF8C" text-anchor="middle">Sphera Lens</text><rect x="145" y="148" width="64" height="28" rx="14" fill="#C9821F" fill-opacity=".12" stroke="#C9821F" stroke-opacity=".4"/><text x="177.0" y="166.5" font-size="13" font-weight="600" fill="#F7CF8C" text-anchor="middle">OSINT</text><rect x="217" y="148" width="94" height="28" rx="14" fill="#C9821F" fill-opacity=".12" stroke="#C9821F" stroke-opacity=".4"/><text x="264.0" y="166.5" font-size="13" font-weight="600" fill="#F7CF8C" text-anchor="middle">CVE-Feeds</text><rect x="319" y="148" width="64" height="28" rx="14" fill="#C9821F" fill-opacity=".12" stroke="#C9821F" stroke-opacity=".4"/><text x="351.0" y="166.5" font-size="13" font-weight="600" fill="#F7CF8C" text-anchor="middle">Orbit</text>
+<rect x=".5" y=".5" width="579" height="199" rx="19.5" fill="none" stroke="#C9821F" stroke-opacity=".3"/>
+</g></svg>

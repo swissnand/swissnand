@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
+<defs><linearGradient id="be" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
+<radialGradient id="ge" cx=".29" cy=".5" r=".5"><stop offset="0" stop-color="#004984" stop-opacity=".5"/><stop offset="1" stop-color="#004984" stop-opacity="0"/></radialGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#5aaaf0"/></marker>
+<clipPath id="ce"><rect width="1000" height="320" rx="20"/></clipPath>
+<style>text{font-family:-apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif} .d{stroke-dasharray:5 7;animation:m 1.6s linear infinite} @keyframes m{to{stroke-dashoffset:-24}} @media (prefers-reduced-motion:reduce){.d{animation:none}}</style></defs>
+<g clip-path="url(#ce)"><rect width="1000" height="320" fill="url(#be)"/><rect width="1000" height="320" fill="url(#ge)"/>
+<g fill="none" stroke="#5aaaf0" stroke-opacity=".7" stroke-width="2" class="d" marker-end="url(#ar)">
+<path d="M322 98 Q420 105 444 134"/><path d="M448 188 Q420 215 322 220"/><path d="M258 220 Q160 215 134 190"/><path d="M132 134 Q160 103 258 98"/></g>
+<rect x="272" y="142" width="36" height="36" rx="5" fill="#D52B1E"/><path d="M290 150v20M280 160h20" stroke="#fff" stroke-width="5.5"/>
+<circle cx="290" cy="92" r="30" fill="#F2A93B" fill-opacity=".16" stroke="#F2A93B" stroke-width="2"/><text x="290" y="98" font-size="18" font-weight="800" fill="#F2A93B" text-anchor="middle">I</text><text x="290" y="42" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Infosphera</text><text x="290" y="57" font-size="12" fill="#8fa3b8" text-anchor="middle">Feld</text><circle cx="470" cy="160" r="30" fill="#FF7A3D" fill-opacity=".16" stroke="#FF7A3D" stroke-width="2"/><text x="470" y="166" font-size="18" font-weight="800" fill="#FF7A3D" text-anchor="middle">K</text><text x="470" y="208" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Knowledge Forge</text><text x="470" y="224" font-size="12" fill="#8fa3b8" text-anchor="middle">Training</text><circle cx="290" cy="222" r="30" fill="#2BA3A3" fill-opacity=".16" stroke="#2BA3A3" stroke-width="2"/><text x="290" y="228" font-size="18" font-weight="800" fill="#2BA3A3" text-anchor="middle">S</text><text x="290" y="270" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">SWISSNAND Tools</text><text x="290" y="286" font-size="12" fill="#8fa3b8" text-anchor="middle">Werkzeug</text><circle cx="110" cy="160" r="30" fill="#E2B44B" fill-opacity=".16" stroke="#E2B44B" stroke-width="2"/><text x="110" y="166" font-size="18" font-weight="800" fill="#E2B44B" text-anchor="middle">S</text><text x="110" y="208" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Spheracom</text><text x="110" y="224" font-size="12" fill="#8fa3b8" text-anchor="middle">Gespräch</text>
+<text x="600" y="92" font-size="30" font-weight="800" fill="#fff" letter-spacing="-.5">SWISSNAND</text>
+<text x="600" y="120" font-size="15" fill="#8fa3b8">Shaping the digital frontier, from Switzerland.</text>
+<text x="600" y="168" font-size="15" fill="#b6c5d4">Jede Marke steht für sich. Zusammen ein Kreislauf:</text>
+<text x="600" y="192" font-size="15" fill="#b6c5d4">Was wir im Feld lernen, wird Training,</text>
+<text x="600" y="216" font-size="15" fill="#b6c5d4">wird Werkzeug, wird Gespräch.</text>
+<text x="600" y="262" font-size="13" fill="#5aaaf0" font-weight="600">Infosphera · Knowledge Forge · Tools · Spheracom</text>
+<rect x=".5" y=".5" width="999" height="319" rx="19.5" fill="none" stroke="#5aaaf0" stroke-opacity=".2"/></g></svg>

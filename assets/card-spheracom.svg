@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="200" viewBox="0 0 580 200">
+<defs>
+<linearGradient id="bgs" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
+<radialGradient id="gs" cx=".9" cy="0" r=".8"><stop offset="0" stop-color="#2E7550" stop-opacity=".45"/><stop offset="1" stop-color="#2E7550" stop-opacity="0"/></radialGradient>
+<clipPath id="cs"><rect width="580" height="200" rx="20"/></clipPath>
+<style>text{font-family:-apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif} .p{animation:p 2s ease-in-out infinite} @keyframes p{50%{opacity:.35}} @media (prefers-reduced-motion:reduce){.p{animation:none}}</style>
+</defs>
+<g clip-path="url(#cs)">
+<rect width="580" height="200" fill="url(#bgs)"/><rect width="580" height="200" fill="url(#gs)"/>
+<rect x="28" y="24" width="40" height="40" rx="11" fill="#2E7550"/>
+<g transform="translate(36 32)" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="3.2"/><circle cx="16.5" cy="9" r="2.6"/><path d="M2.5 20c.6-3.4 3-5.3 5.5-5.3s4.9 1.9 5.5 5.3M14 15.2c2.6-.4 5.6 1 6.3 4.8"/></g>
+<text x="82" y="52" font-size="23" font-weight="800" fill="#fff" letter-spacing="-.3">Spheracom</text>
+<circle class="p" cx="507.20000000000005" cy="44" r="4.5" fill="#E2B44B"/><text x="548" y="49" font-size="13" fill="#9fb3c6" text-anchor="end">bald</text>
+<text x="28" y="98" font-size="15" fill="#b6c5d4">Community für Information, Cyber, Space, Leadership,</text><text x="28" y="120" font-size="15" fill="#b6c5d4">Education und Digital Economy. Talks und Brief.</text><rect x="28" y="148" width="94" height="28" rx="14" fill="#2E7550" fill-opacity=".12" stroke="#2E7550" stroke-opacity=".4"/><text x="75.0" y="166.5" font-size="13" font-weight="600" fill="#9EDDB8" text-anchor="middle">Community</text><rect x="130" y="148" width="64" height="28" rx="14" fill="#2E7550" fill-opacity=".12" stroke="#2E7550" stroke-opacity=".4"/><text x="162.0" y="166.5" font-size="13" font-weight="600" fill="#9EDDB8" text-anchor="middle">Talks</text><rect x="202" y="148" width="117" height="28" rx="14" fill="#2E7550" fill-opacity=".12" stroke="#2E7550" stroke-opacity=".4"/><text x="260.5" y="166.5" font-size="13" font-weight="600" fill="#9EDDB8" text-anchor="middle">Sphera Brief</text>
+<rect x=".5" y=".5" width="579" height="199" rx="19.5" fill="none" stroke="#2E7550" stroke-opacity=".3"/>
+</g></svg>
