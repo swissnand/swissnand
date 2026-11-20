@@ -75,8 +75,6 @@ motto:      "Was zweimal passiert, wird automatisiert."
 <div align="center">
   <img src="./assets/stats.svg" width="49%" alt="GitHub in Zahlen"/>
   <img src="./assets/languages.svg" width="49%" alt="Meistgenutzte Sprachen"/>
-  <img src="./assets/activity.svg" width="98%" alt="Aktivität"/>
-</div>
 
 ### 📚 Neu bei Knowledge Forge
 
