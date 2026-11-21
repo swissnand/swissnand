@@ -95,7 +95,7 @@ motto:      "Was zweimal passiert, wird automatisiert."
 
 <sub>Jeden Tag eine neue Auswahl · Stand 21.11.2026</sub>
 
-</div>
+</div align="left">
 <!-- KF:END -->
 
 ### 🔭 Gerade dran · SN2027
@@ -108,7 +108,7 @@ SWISSNAND wird neu aufgestellt: eine Dachmarke, vier Marken, ein Kreislauf.
 🤝 **Spheracom** – Community, Talks und der «Sphera Brief»
 🛡️ **Infosphera** – ✅ [Security Toolbox v1.0](https://github.com/swissnand/security-toolbox) mit 31 Tools ist draussen · als Nächstes: Web-Checks auf infosphera.swissnand.com
 
-<div align="left">
+<div align="center">
 <br/>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001c35,50:004984,100:5aaaf0&height=110&section=footer&text=SWISSNAND&fontColor=ffffff&fontSize=26&fontAlignY=72"/>
 </div>
