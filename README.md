@@ -102,11 +102,11 @@ motto:      "Was zweimal passiert, wird automatisiert."
 
 SWISSNAND wird neu aufgestellt: eine Dachmarke, vier Marken, ein Kreislauf.
 
-- 🌐 **swissnand.com** – neue Website mit allen Marken
-- 📚 **Knowledge Forge** – die ersten 40 Kurse (Networking, Ansible, Linux, Git, Cyber …)
-- 🧰 **SWISSNAND Tools** – ✅ [SWISSNAND Backup](https://github.com/swissnand/snbackup) für Ubuntu und Windows Server ist draussen · IT Toolbox v1.0, Toolbox Web und Schweizer QR-Rechnung
-- 🤝 **Spheracom** – Community, Talks und der «Sphera Brief»
-- 🛡️ **Infosphera** – ✅ [Security Toolbox v1.0](https://github.com/swissnand/security-toolbox) mit 31 Tools ist draussen · als Nächstes: Web-Checks auf infosphera.swissnand.com
+🌐 **swissnand.com** – neue Website mit allen Marken
+📚 **Knowledge Forge** – die ersten 40 Kurse (Networking, Ansible, Linux, Git, Cyber …)
+🧰 **SWISSNAND Tools** – ✅ [SWISSNAND Backup](https://github.com/swissnand/snbackup) für Ubuntu und Windows Server ist draussen · IT Toolbox v1.0, Toolbox Web und Schweizer QR-Rechnung
+🤝 **Spheracom** – Community, Talks und der «Sphera Brief»
+🛡️ **Infosphera** – ✅ [Security Toolbox v1.0](https://github.com/swissnand/security-toolbox) mit 31 Tools ist draussen · als Nächstes: Web-Checks auf infosphera.swissnand.com
 
 <div align="center">
 <br/>
