@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="200" viewBox="0 0 580 200">
+<defs>
+<linearGradient id="bgb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
+<radialGradient id="gb" cx=".9" cy="0" r=".8"><stop offset="0" stop-color="#004984" stop-opacity=".45"/><stop offset="1" stop-color="#004984" stop-opacity="0"/></radialGradient>
+<clipPath id="cb"><rect width="580" height="200" rx="20"/></clipPath>
+<style>text{font-family:-apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif} .p{animation:p 2s ease-in-out infinite} @keyframes p{50%{opacity:.35}} @media (prefers-reduced-motion:reduce){.p{animation:none}}</style>
+</defs>
+<g clip-path="url(#cb)">
+<rect width="580" height="200" fill="url(#bgb)"/><rect width="580" height="200" fill="url(#gb)"/>
+<g transform="translate(28 24) scale(.625)"><rect x="6" y="6" width="24" height="24" rx="6" fill="#004984"/><rect x="34" y="6" width="24" height="24" rx="6" fill="#5989AF"/><rect x="6" y="34" width="24" height="24" rx="6" fill="#5989AF"/><rect x="34" y="34" width="24" height="24" rx="6" fill="#004984"/><path d="M46 40v12M40 46h12" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/></g>
+<text x="82" y="52" font-size="23" font-weight="800" fill="#fff" letter-spacing="-.3">SWISSNAND Backup</text>
+<circle class="p" cx="514" cy="44" r="4.5" fill="#3ccf96"/><text x="548" y="49" font-size="13" fill="#9fb3c6" text-anchor="end">Neu</text>
+<text x="28" y="98" font-size="15" fill="#b6c5d4">Verschlüsselte, deduplizierte Backups für Ubuntu</text><text x="28" y="120" font-size="15" fill="#b6c5d4">und Windows Server · Web-Konsole, CLI, S3, NAS.</text><rect x="28" y="148" width="72" height="28" rx="14" fill="#004984" fill-opacity=".12" stroke="#004984" stroke-opacity=".4"/><text x="64.0" y="166.5" font-size="13" font-weight="600" fill="#B9D0E3" text-anchor="middle">Ubuntu</text><rect x="108" y="148" width="84" height="28" rx="14" fill="#004984" fill-opacity=".12" stroke="#004984" stroke-opacity=".4"/><text x="150.0" y="166.5" font-size="13" font-weight="600" fill="#B9D0E3" text-anchor="middle">Windows</text><rect x="200" y="148" width="44" height="28" rx="14" fill="#004984" fill-opacity=".12" stroke="#004984" stroke-opacity=".4"/><text x="222.0" y="166.5" font-size="13" font-weight="600" fill="#B9D0E3" text-anchor="middle">Go</text><rect x="252" y="148" width="84" height="28" rx="14" fill="#004984" fill-opacity=".12" stroke="#004984" stroke-opacity=".4"/><text x="294.0" y="166.5" font-size="13" font-weight="600" fill="#B9D0E3" text-anchor="middle">AES-256</text><rect x="344" y="148" width="112" height="28" rx="14" fill="#004984" fill-opacity=".12" stroke="#004984" stroke-opacity=".4"/><text x="400.0" y="166.5" font-size="13" font-weight="600" fill="#B9D0E3" text-anchor="middle">Gratis privat</text>
+<rect x=".5" y=".5" width="579" height="199" rx="19.5" fill="none" stroke="#004984" stroke-opacity=".3"/>
+</g></svg>
