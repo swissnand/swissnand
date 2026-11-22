@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="270" viewBox="0 0 400 270">
+<defs>
+<linearGradient id="bgk2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#0c1722"/></linearGradient>
+<radialGradient id="g1k2"><stop offset="0" stop-color="#0a5fa3" stop-opacity=".55"/><stop offset="1" stop-color="#0a5fa3" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2k2"><stop offset="0" stop-color="#004984" stop-opacity=".45"/><stop offset="1" stop-color="#004984" stop-opacity="0"/></radialGradient>
+<linearGradient id="edgek2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity=".3"/></linearGradient>
+<filter id="bk2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="24"/></filter>
+<clipPath id="ck2"><rect width="400" height="270" rx="22"/></clipPath>
+<style>
+text{font-family:'Segoe UI',-apple-system,'SF Pro Display',Helvetica,Arial,sans-serif} .mono{font-family:'SF Mono',Menlo,Consolas,monospace}
+.drift{animation:drift 14s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(-80px,30px)}}
+@media (prefers-reduced-motion:reduce){.rise,.drift{animation:none}}
+.rise{animation:rise .8s ease-out backwards}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+</style></defs>
+<g clip-path="url(#ck2)">
+<rect width="400" height="270" fill="url(#bgk2)"/>
+<g filter="url(#bk2)"><circle class="drift" cx="290" cy="40" r="130" fill="url(#g1k2)"/><circle cx="80" cy="270" r="100" fill="url(#g2k2)"/></g>
+<rect x="1" y="1" width="398" height="268" rx="21" fill="#fff" fill-opacity=".05" stroke="url(#edgek2)" stroke-width="1.5"/>
+<rect x="24" y="22" width="87" height="26" rx="13" fill="#9ccbf5" fill-opacity="0.18" stroke="#9ccbf5" stroke-opacity=".45"/><text x="67.5" y="39.5" font-size="12" font-weight="600" fill="#cfe6fb" text-anchor="middle">Netzwerke</text><rect x="119" y="22" width="95" height="26" rx="13" fill="#fff" fill-opacity="0.08" stroke="#fff" stroke-opacity=".45"/><text x="166.5" y="39.5" font-size="12" font-weight="600" fill="#e2e8f0" text-anchor="middle">Einsteiger</text><text x="24" y="86" font-size="21" font-weight="700" fill="#f2f7fb">Networking Basics: Netzwerke</text><text x="24" y="113" font-size="21" font-weight="700" fill="#f2f7fb">verstehen, bauen und…</text><text x="24" y="146" font-size="13.5" fill="#cbd5e1">Vom Kabel bis zur Cloud – mit eigenem Lab,</text><text x="24" y="166" font-size="13.5" fill="#cbd5e1">Wireshark, Subnetting-Training und vier</text><text x="24" y="186" font-size="13.5" fill="#cbd5e1">Praxisprojekten</text><line x1="24" y1="212" x2="376" y2="212" stroke="#fff" stroke-opacity=".1"/><text x="24" y="244" font-size="13" fill="#8fa3b8">119 Lektionen · ca. 40 Std.</text><text x="376" y="244" font-size="17" font-weight="700" fill="#9ccbf5" text-anchor="end">CHF 149</text>
+</g></svg>

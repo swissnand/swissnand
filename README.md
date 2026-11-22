@@ -84,8 +84,9 @@ motto:      "Was zweimal passiert, wird automatisiert."
 
 <!-- KF:START -->
 <div align="center">
-  <a href="https://knowledge-forge.swissnand.com/kurse/kubernetes-masterclass"><img src="./assets/course-1.svg" width="49%" alt="Kubernetes Masterclass: Vom Einsteiger zum Profi"/></a>
-  <a href="https://knowledge-forge.swissnand.com/kurse/it-basics"><img src="./assets/course-2.svg" width="49%" alt="IT-Basics: Computer, Internet und Sicherheit verstehen"/></a>
+  <a href="https://knowledge-forge.swissnand.com/kurse/it-basics"><img src="./assets/course-1.svg" width="32%" alt="IT-Basics: Computer, Internet und Sicherheit verstehen"/></a>
+  <a href="https://knowledge-forge.swissnand.com/kurse/kubernetes-masterclass"><img src="./assets/course-2.svg" width="32%" alt="Kubernetes Masterclass: Vom Einsteiger zum Profi"/></a>
+  <a href="https://knowledge-forge.swissnand.com/kurse/networking-basics"><img src="./assets/course-3.svg" width="32%" alt="Networking Basics: Netzwerke verstehen, bauen und analysieren"/></a>
 </div>
 
 <div align="center">
