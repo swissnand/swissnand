@@ -84,9 +84,9 @@ motto:      "Was zweimal passiert, wird automatisiert."
 
 <!-- KF:START -->
 <div align="center">
-  <a href="https://knowledge-forge.swissnand.com/kurse/kubernetes-masterclass"><img src="./assets/course-1.svg" width="32%" alt="Kubernetes Masterclass: Vom Einsteiger zum Profi"/></a>
+  <a href="https://knowledge-forge.swissnand.com/kurse/it-basics"><img src="./assets/course-1.svg" width="32%" alt="IT-Basics: Computer, Internet und Sicherheit verstehen"/></a>
   <a href="https://knowledge-forge.swissnand.com/kurse/networking-basics"><img src="./assets/course-2.svg" width="32%" alt="Networking Basics: Netzwerke verstehen, bauen und analysieren"/></a>
-  <a href="https://knowledge-forge.swissnand.com/kurse/it-basics"><img src="./assets/course-3.svg" width="32%" alt="IT-Basics: Computer, Internet und Sicherheit verstehen"/></a>
+  <a href="https://knowledge-forge.swissnand.com/kurse/kubernetes-masterclass"><img src="./assets/course-3.svg" width="32%" alt="Kubernetes Masterclass: Vom Einsteiger zum Profi"/></a>
 </div>
 
 <div align="center">
@@ -94,7 +94,7 @@ motto:      "Was zweimal passiert, wird automatisiert."
 [![Alle Kurse](https://img.shields.io/badge/Alle_Kurse_ansehen-%E2%86%92-004984?style=for-the-badge&labelColor=0b1520)](https://knowledge-forge.swissnand.com/kurse)
 [![Pro-Abo](https://img.shields.io/badge/Pro--Abo-alle_Kurse_inklusive-1a6aa8?style=for-the-badge&labelColor=0b1520)](https://knowledge-forge.swissnand.com/pro)
 
-<sub>Jeden Tag eine neue Auswahl · Stand 27.11.2026</sub>
+<sub>Jeden Tag eine neue Auswahl · Stand 28.11.2026</sub>
 
 </div>
 <!-- KF:END -->
